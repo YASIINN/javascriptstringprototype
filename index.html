@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Page Title</title>
+</head>
+<script src="index.js"></script>
+<body>
+<script>
+    let example1 = 'Ad: {{ name }} \n Soyad: {{ surname }} \n  Yaş {{age}}'.interpolation({
+        name: 'Yasin',
+        surname: 'Dalkılıç',
+        age: "24"
+    });
+    let example2 = '<a href="{{ url }}"></a>'.interpolation({url: 'https://www.cekino.com/'});
+    let example3 = 'İşlem: {{ s1 + s2 - s3 }}'.interpolation({s1: 10, s2: 3, s3: 2});
+    let example4 = 'Toplam: {{ s1 }} + {{ s2 }} = {{ sum(s1, s2) }}'.interpolation({
+        s1: 50,
+        s2: 20,
+        sum: (s1, s2) => s1 + s2
+    });
+    console.log(example1)
+    console.log(example2)
+    console.log(example3)
+    console.log(example4)
+
+</script>
+
+
+</body>
+</html>
