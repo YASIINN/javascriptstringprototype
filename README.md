@@ -27,7 +27,11 @@ String İçine Yazılan Kıvırcık Parentezlerin İçindeki Javascript İşleml
 ~~~~
 
 **Örnek Çıktı**
+
+
 <img src="https://raw.githubusercontent.com/YASIINN/javascriptstringprototype/master/ornek.png" width="600">
+
+
 **Kullanılan Araçlar**
 ~~~~
 Javascript
